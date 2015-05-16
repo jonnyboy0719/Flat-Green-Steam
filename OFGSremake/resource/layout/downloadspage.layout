@@ -1,0 +1,44 @@
+"resource/layout/downloadspage.layout"
+{
+	controls
+	{
+		// the container
+		"DownloadsPage"
+		{
+			"ControlName"		"CDownloadsPage"
+		}
+		
+		"downloadsummarypanel"
+		{
+			"ControlName"	"DownloadSummaryPanel"
+		}
+	
+		"panel_list"
+		{
+			style=ListPanel
+		}
+	}
+	
+	styles
+	{
+		DownloadsPageStyle
+		{
+			bgcolor=ClayBG
+			render
+			{
+				// lines around
+				0="fill( x0 + 1, y0, x1 - 1, y0+1, ClayBG )"  // top
+				0="fill( x0, y0 + 1, x0+1, y1 - 1, ClayBG )"  // left
+				0="fill( x1 - 1, y0 + 1, x1, y1 - 1, ClayBG )"  // right
+				0="fill( x0 + 1, y1-1, x1 - 2, y1, ClayBG )"  // bottom
+			}			
+		}
+	}
+
+	layout
+	{
+		// place { control="panel_list" width=max height=max margin=1 }
+		region { name=main x=0 y=0 margin=5 }
+		place { control="downloadsummarypanel,panel_list" dir=down region=main width=max height=max spacing=0 margin=1}
+	}
+}

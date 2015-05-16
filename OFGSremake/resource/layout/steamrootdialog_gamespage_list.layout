@@ -1,0 +1,55 @@
+"resource/layout/steamrootdialog_gamespage_list.layout"
+{
+	controls
+	{
+		"GamesList"
+		{
+			tabposition=1
+		}
+	}
+
+	colors
+	{
+		ListPanel.PostSectionLeading	12
+	}
+
+  styles
+  {
+	
+	GameColumnHeaderFavorites {
+	}
+
+	ListPanelInterior {
+		inset = "0 0 8 0"
+		bgcolor="GrayBG"
+	}
+
+
+	CGamesListFavoritesToggle {
+		image = "skins/OFGSremake/Graphics/fav_addTo"
+	}
+	
+	CGamesListFavoritesToggle:hover {
+		image = "skins/OFGSremake/Graphics/fav_addTo_ovr"
+	}
+
+	CGamesListFavoritesToggle:selected {
+		image = "skins/OFGSremake/Graphics/fav_remove"
+	}
+	
+	CGamesListFavoritesToggle:selected:hover {
+		image = "skins/OFGSremake/Graphics/fav_remove_ovr"
+	}
+
+
+  }	
+
+	
+	layout
+	{
+		// content pages
+		place { control="GamesList" 		width=max height=max margin-left=0 margin-top=0 }
+
+	}
+
+}

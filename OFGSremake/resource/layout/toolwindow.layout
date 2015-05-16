@@ -1,0 +1,29 @@
+"resource/layout/toolwindow.layout"
+{
+	controls
+	{
+		// the container
+		ToolWindowSheet	{	controlname="PropertySheet" }
+	} 
+	
+		
+	styles
+	{
+		ToolWindow
+		{
+			bgcolor = ClayBG
+			render_bg {
+				1="fill( x0, y0, x1, y0 + 21, LightGreenBG )"  // top
+				2="fill( x0, y1 - 1, x1, y1, LightClayBG )"  // bottom
+				3="fill( x0, y0, x0 + 1, y1, LightClayBG )"  // left
+				4="fill( x1 - 1, y0, x1, y1, LightClayBG )"  // right
+			}			
+		}
+	}
+
+	layout
+	{
+		place [!$OSX] { control="frame_minimize,frame_maximize,frame_close" align=right margin-top=5 margin-right=2 spacing=-5 }
+		place { control="ToolWindowSheet" x=8 y=23 height=max width=max margin-right=8 }
+	}
+}

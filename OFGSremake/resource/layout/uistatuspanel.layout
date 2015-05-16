@@ -1,0 +1,30 @@
+"resource/layout/uistatuspanel.layout"
+{
+	controls
+	{
+		StatusDownloading { controlname=URLLabel style="StatusLabel" labelText="" URLText="steam://open/downloads" }
+		StatusPaused{ controlname=URLLabel style="StatusLabel" labelText="" URLText="steam://open/downloads" }
+		StatusComplete { controlname=URLLabel style="StatusLabel" labelText="" URLText="steam://open/downloads" }
+		StatusProgressbar	{ controlname="ProgressBar" style="SlimProgressBar" barinset=0 continuous=1 } 
+	}
+	
+	styles
+	{
+		SlimProgressBar
+		{
+			render_bg
+			{
+				0="fill( x0, y0, x1, y1, black )"
+			}
+		}
+	}
+	
+	layout
+	{
+	  region { name="ProgressRegion" y=28 x=576 width=max height=28 align=top margin=0 margin-left=0 margin-right=21 }
+	 	region { name="statusRegion" y=36 x=576 width=max height=48 align=top margin=0 margin-right=21 } 
+	  
+	  place { control=StatusProgressbar region="ProgressRegion" width=max height=2 margin-top=0 align="top-center" }
+		place { control="StatusDownloading, StatusPaused, StatusComplete" region="statusRegion"  align="top-center" margin-top=0 }
+	}
+}
