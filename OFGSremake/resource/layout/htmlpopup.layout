@@ -96,7 +96,7 @@
 		{
 		font-family=basefont
 		font-size=14
-		textcolor="darkclientbg"
+		textcolor="GreenText"
 		font-weight=400
 		bgcolor="html.secureurl"
 		inset-left=4
@@ -115,7 +115,7 @@
 
 		URLBarSecure
 		{
-		textcolor="html.secureurl"
+		textcolor="GreenText"
 		}
 
 		URLBarBrokenSecure

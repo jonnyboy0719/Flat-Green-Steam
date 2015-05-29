@@ -25,32 +25,32 @@
 		bgcolor=none
 		inset="0 0 0 0"
 		render_bg={}
-		image="graphics/icon_button_back"
+		image="steam/cached/icon_button_back_sm"
 		}
 		BackButtonSm:hover
 		{
 		bgcolor=none
 		render_bg={}
-		image="graphics/icon_button_back_over"
+		image="steam/cached/icon_button_back_over_sm"
 		}
 		BackButtonSm:active
 		{
 		bgcolor=none
 		render_bg={}
-		image="graphics/icon_button_back_down"
+		image="steam/cached/icon_button_back_down_sm"
 		}
 		BackButtonSm:disabled
 		{
 		bgcolor=none
 		render_bg={}
-		image="graphics/icon_button_back_disabled"
+		image="steam/cached/icon_button_back_disabled_sm"
 		}
 		ForwardButtonSm
 		{
 		bgcolor=none
 		inset="-1 0 0 0"
 		render_bg={}
-		image="graphics/icon_button_forward"
+		image="steam/cached/icon_button_forward_sm"
 		}
 		
 		ForwardButtonSm:hover
@@ -58,21 +58,21 @@
 		inset="-1 0 0 0"
 		bgcolor=none
 		render_bg={}
-		image="graphics/icon_button_forward_over"
+		image="steam/cached/icon_button_forward_over_sm"
 		}
 		ForwardButtonSm:active
 		{
 		inset="-1 0 0 0"
 		bgcolor=none
 		render_bg={}
-		image="graphics/icon_button_forward_down"
+		image="steam/cached/icon_button_forward_down_sm"
 		}
 		ForwardButtonSm:disabled
 		{
 		inset="-1 0 0 0"
 		bgcolor=none
 		render_bg={}
-		image="graphics/icon_button_forward_disabled"
+		image="steam/cached/icon_button_forward_disabled_sm"
 		}
 		
 		
@@ -130,7 +130,7 @@
 		{
 		font-family=basefont
 		font-size=14
-		textcolor="darkclientbg"
+		textcolor="GreenText"
 		bgcolor="html.secureurl"
 		inset-left=4
 		inset-right=4
@@ -148,7 +148,7 @@
 
 		URLBarSecure
 		{
-		textcolor="html.secureurl"
+		textcolor="GreenText"
 		}
 
 		URLBarBrokenSecure

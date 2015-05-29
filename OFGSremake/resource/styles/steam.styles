@@ -94,6 +94,9 @@ steam.styles
     ClientBG="26 25 24 255"
     DialogBG="56 54 53 255"
 
+	// Used as secure URL text
+	GreenText="0 255 0 255"
+
     DarkClientBG="36 35 34 255"
     DarkDialogBG="56 54 53 255"
     DarkClientBGTransparent="36 35 34 19"
@@ -3359,7 +3362,7 @@ steam.styles
 		font-size=14
 		textcolor="text2"
 		font-weight=400
-		bgcolor="DarkClientBG"
+		bgcolor="GreenText"
 		selectedtextcolor="TextEntrySelected"
 		selectedbgcolor="TextSelectedBG"
 		shadowtextcolor="Text"	// this is the cursor color
@@ -3576,7 +3579,7 @@ steam.styles
 		font-size=14
 		textcolor="text2"
 		font-weight=400
-		bgcolor="DarkClientBG"
+		bgcolor="GreenText"
 		selectedtextcolor="TextEntrySelected"
 		selectedbgcolor="TextSelectedBG"
 		shadowtextcolor="Text"	// this is the cursor color
@@ -3598,7 +3601,7 @@ steam.styles
 		font-size=14
 		textcolor="text2"
 		font-weight=400
-		bgcolor="DarkClientBG"
+		bgcolor="GreenText"
 		selectedtextcolor="TextEntrySelected"
 		selectedbgcolor="TextSelectedBG"
 		shadowtextcolor="Text"	// this is the cursor color

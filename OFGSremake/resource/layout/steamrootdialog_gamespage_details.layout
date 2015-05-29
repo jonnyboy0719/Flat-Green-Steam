@@ -154,7 +154,7 @@
 		{
        		inset="-3 3 0 0"
         		render {
-          		5="image( x0 + 3, y0 + 3, x1, y1, graphics/icon_collapse )"
+          		5="image( x0 + 3, y0 + 3, x1, y1, graphics/icon_expand )"
         		}   
         		render_bg {
         			1="fill( x0 + 1, y0, x1 - 1, y1, none )"
