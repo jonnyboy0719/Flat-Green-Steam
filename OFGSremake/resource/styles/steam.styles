@@ -1681,7 +1681,7 @@ steam.styles
       
       bgcolor=none
       render_bg {}
-      image="graphics/icon_collapse" 
+      image="graphics/icon_expand" 
       inset="-4 0 0 0"
       padding-top=-2
       padding-bottom=-2
@@ -1700,7 +1700,7 @@ steam.styles
     
     ListPanelSectionCollapser:hover [!$OSX]
     {
-      image="graphics/icon_collapse_over" 
+      image="graphics/icon_expand_over" 
     }
     
     ListPanelSectionCollapser:hover [$OSX]
@@ -1710,7 +1710,7 @@ steam.styles
     
     ListPanelSectionCollapser:selected [!$OSX]
     {
-      image="graphics/icon_expand" 
+      image="graphics/icon_collapse" 
     }
     
     ListPanelSectionCollapser:selected [$OSX]
@@ -1720,7 +1720,7 @@ steam.styles
     
     ListPanelSectionCollapser:selected:hover [!$OSX]
     {
-      image="graphics/icon_expand_over" 
+      image="graphics/icon_collapse_over" 
     }
     
      ListPanelSectionCollapser:selected:hover [$OSX]
@@ -2409,23 +2409,23 @@ steam.styles
     {
       render_bg {}
       bgcolor=none
-      image="graphics/icon_collapse"
+      image="graphics/icon_expand"
       inset="2 1 0 0"
     } 
     
     SectionedListPanelCollapser:hover
     {
-      image="graphics/icon_collapse_over"
+      image="graphics/icon_expand_over"
     }
     
     SectionedListPanelCollapser:selected
     {
-      image="graphics/icon_expand"
+      image="graphics/icon_collapse"
     }
     
     SectionedListPanelCollapser:selected:hover
     {
-      image="graphics/icon_expand_over"
+      image="graphics/icon_collapse_over"
     }
     
 
